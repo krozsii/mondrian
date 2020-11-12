@@ -1,0 +1,186 @@
+body
+{
+    background: url(bg.jpeg);
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+    background: greenyellow;
+    border: 3px solid black;
+}
+
+#canvas
+{
+
+    width: 300px;
+    height: 300px;
+    background-color: rebeccapurple;
+    box-shadow: 15px 15px 10px rosybrown;
+    border: 5px solid black;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    transform: scale(2.5);
+
+}
+
+#first-row
+{
+    height: 48.5%;
+    width: 100%;
+}
+
+#first-divider
+{
+    height: 100%;
+    width: 3%;
+}
+
+#first-column
+{
+    height: 100%;
+    width: 31.5%;
+}
+
+#first-medium-rectangle
+{
+    height: 31.4%;
+    width: 100%;
+}
+
+#second-divider
+{
+    height: 3%;
+    width: 100%;
+}
+
+#second-medium-rectangle
+{
+    height: 31.4%;
+    width: 100%;
+}
+
+#third-divider
+{
+    height: 3%;
+    width: 100%;
+}
+
+#third-medium-rectangle
+{
+    height: 31.4%;
+    width: 100%;
+}
+
+#fourth-divider
+{
+    height: 100%;
+    width: 3%;
+}
+
+#first-big-rectangle
+{
+    height: 100%;
+    width: 62.5%;
+}
+
+#second-row
+{
+    height: 3%;
+    width: 100%;
+}
+
+#third-row
+{
+    height: 48.5%;
+    width: 100%;
+}
+
+#middle-column
+{
+    height: 100%;
+    width: 8%;
+}
+
+#first-tiny-rectangle
+{
+    height: 48.5%;
+    width: 3%;
+}
+
+#fifth-divider
+{
+    height: 3%;
+    width: 100%;
+}
+
+#second-tiny-rectangle
+{
+    height: 48.5%;
+    width: 100%;
+}
+
+#sixth-divider
+{
+    height: 3%;
+    width: 100%;
+}
+
+
+#last-column
+{
+    height: 100%;
+    width: 92%;
+}
+
+#second-big-rectangle
+{
+    height: 48.5%;
+    width: 100%;
+}
+
+#seventh-divider
+{
+    height: 3%;
+    width: 100%;
+}
+
+#third-big-rectangle
+{
+    height: 48.5%;
+    width: 100%;
+}
+
+
+
+
+.right
+{
+    float: right;
+}
+
+.red
+{
+    background-color: crimson;
+}
+
+.white
+{
+    background-color: whitesmoke;
+}
+
+.yellow
+{
+    background-color: orange;
+}
+
+.blue
+{
+    background-color: royalblue;
+}
