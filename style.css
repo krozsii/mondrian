@@ -11,9 +11,7 @@ body
 
 ::-webkit-scrollbar
 {
-	width: 6px;
-    background: greenyellow;
-    border: 1px solid black;
+	width: 0;
 }
 
 #canvas
@@ -55,6 +53,7 @@ body
 {
     height: 31.4%;
     width: 100%;
+    background: linear-gradient(to bottom, royalblue 0%, orange 100%);
 }
 
 #second-divider
@@ -79,6 +78,7 @@ body
 {
     height: 31.4%;
     width: 100%;
+    background: linear-gradient(to top, royalblue 0%, orange 100%);
 }
 
 #fourth-divider
@@ -91,6 +91,9 @@ body
 {
     height: 100%;
     width: 62.5%;
+    background-size: cover;
+    background-image: url('bg2.jpeg');
+    background-blend-mode: multiply;
 }
 
 #second-row
@@ -146,6 +149,7 @@ body
 {
     height: 48.5%;
     width: 100%;
+    background: linear-gradient(to left, rebeccapurple 0%, orange 100%);
 }
 
 #seventh-divider
@@ -158,6 +162,7 @@ body
 {
     height: 48.5%;
     width: 100%;
+    background: linear-gradient(to right, rebeccapurple 0%, orange 100%);
 }
 
 
